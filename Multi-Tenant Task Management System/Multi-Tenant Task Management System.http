@@ -1,0 +1,6 @@
+@Multi_Tenant_Task_Management_System_HostAddress = http://localhost:5012
+
+GET {{Multi_Tenant_Task_Management_System_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
