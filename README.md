@@ -5,7 +5,7 @@
 1. **Update Connection String**
 
 Open `appsettings.json` and replace:
-```json
+
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_SQL_SERVER;Database=TaskDb;Trusted_Connection=True;TrustServerCertificate=True;"
 }
