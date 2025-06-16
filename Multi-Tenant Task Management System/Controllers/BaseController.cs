@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace Multi_Tenant_Task_Management_System.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class BaseController : ControllerBase
